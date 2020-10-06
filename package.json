@@ -1,0 +1,26 @@
+{
+  "name": "leogomesdev.github.io",
+  "version": "1.1.0",
+  "description": "This is the source-code for https://leogomesdev.github.io",
+  "engines": {
+    "node": "^14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "main": "",
+  "scripts": {
+    "scss": "node-sass -r assets/sass -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leogomesdev/leogomesdev.github.io.git"
+  },
+  "author": "Leonardo Gomes da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leogomesdev/leogomesdev.github.io/issues"
+  },
+  "homepage": "https://leogomesdev.github.io",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
