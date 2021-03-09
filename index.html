@@ -6,7 +6,7 @@
 -->
 <html lang="en">
   <head>
-    <title>Leonardo Gomes</title>
+    <title>Leonardo Gomes - Software Engineer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- OG -->
@@ -24,6 +24,14 @@
     <noscript>
       <link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
+
+    <script type="text/javascript">
+      function getAge() {
+        var birthday = +new Date("1993-11-17");
+        return ~~((Date.now() - birthday) / (31557600000));
+      };
+    </script>
+
   </head>
 
   <body class="is-preload">
@@ -34,18 +42,19 @@
         <span class="logo"
           ><img src="images/logo.svg" alt="An icon of a rocket"
         /></span>
-        <h1>Leonardo Gomes da Silva</h1>
-        <p>Software Engineer</p>
+        <h1>Leonardo Gomes</h1>
+        <p>Software Engineer | @leogomesdev</p>
       </header>
 
       <!-- Nav -->
       <nav id="nav">
         <ul>
-          <li><a href="#introduction" class="active">Introduction</a></li>
+          <li><a href="#introduction" class="active">Intro</a></li>
           <li><a href="#main-stack">Main Stack</a></li>
           <li><a href="#career">Career</a></li>
           <li><a href="#more-activities">More activities</a></li>
           <li><a href="#motivation">Motivation</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
       </nav>
 
@@ -59,7 +68,8 @@
                 <h2>Who am I?</h2>
               </header>
               <p>
-                I am Leonardo, I am 27 years old and I am Brazilian. I have a
+                I am Leonardo, I am <script>document.write(getAge())</script> years old
+                and I am Brazilian. I have a
                 Bachelor's degree in Information Systems (2011-2016) and a
                 Technical Course in Industrial Computing (2011-2013), both at
                 IFF-RJ, a great public Brazilian university.
@@ -264,7 +274,7 @@
             <p>
               In my career, I have worked in companies and systems that
               facilitate people's personal and professional day-to-day
-              activities, this is what attracts me to Sofware Development.
+              activities, this is what attracts me to Software Development.
             </p>
           </header>
         </section>
@@ -297,7 +307,7 @@
           <ul class="icons">
             <li>
               <a
-                href="https://www.linkedin.com/in/lgomess/?locale=en_US"
+                href="https://www.linkedin.com/in/leogomesdev"
                 target="_blank"
                 class="icon brands fa-linkedin alt"
                 title="Visit LinkedIn Profile"
@@ -337,7 +347,7 @@
             </li>
             <li>
               <a
-                href="https://www.facebook.com/leogomesdev/"
+                href="https://www.facebook.com/leogomesdev"
                 target="_blank"
                 class="icon brands fa-facebook-f alt"
                 title="Visit Facebook Profile"
@@ -347,7 +357,7 @@
             </li>
             <li>
               <a
-                href="https://www.instagram.com/leogomesdev/"
+                href="https://www.instagram.com/leogomesdev"
                 target="_blank"
                 class="icon brands fa-instagram alt"
                 title="Visit Instagram Profile"
